@@ -14,6 +14,7 @@ function App() {
     apiKey: import.meta.env.VITE_Open_AI_Key,
   });
 
+  
   const openai = new OpenAIApi(configuration);
 
   const presetImage = async (presetValue) => {
